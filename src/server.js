@@ -16,7 +16,7 @@ createServer({
     },
 
     routes() {
-        this.namespace = "api"
+        this.namespace = "/api"
         this.logging = false
         // this.timing = 2000
 
